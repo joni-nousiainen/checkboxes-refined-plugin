@@ -1,0 +1,9 @@
+.editable-field.type-checkboxes-refined.active form.aui {
+    border: 1px solid #CCC;
+    padding: 4px 5px;
+}
+
+.checkboxes-refined_container {
+    max-height: 10em;
+    overflow-y: auto;
+}

@@ -18,7 +18,7 @@
     </customfield-type>
 
     <web-resource key="resources" name="Resources">
-        <resource name="checkboxes-enhanced.css" type="download" location="css/checkboxes-enhanced.css"/>
+        <resource name="checkboxes-refined.css" type="download" location="css/checkboxes-refined.css"/>
         <context>jira.view.issue</context>
         <context>jira.create.issue</context>
     </web-resource>

@@ -6,7 +6,7 @@
     #AUIformFieldsetHeader ($customField.name $fieldLayoutItem.required $displayParameters $auiparams)
         #set ($hadAnyValidOptions = false)
         #if ($value) #set ($selectedValues = $value) #end
-        <div id="${customField.id}_container" class="checkboxes-enhanced_container">
+        <div id="${customField.id}_container" class="checkboxes-refined_container">
             #foreach ($option in $configs.options)
                 #if(!$option.disabled || $option.disabled == false || ($selectedValues && $selectedValues.contains($option.optionId.toString())))
                     #set ($hadAnyValidOptions = true)
@@ -29,7 +29,7 @@
     #customControlHeader ($action $customField.id $customField.name $fieldLayoutItem.required $displayParameters $auiparams)
         #set ($hadAnyValidOptions = false)
         #if ($value) #set ($selectedValues = $value) #end
-        <div id="${customField.id}_container" class="checkboxes-enhanced_container>
+        <div id="${customField.id}_container" class="checkboxes-refined_container>
             #foreach ($option in $configs.options)
                 #set ($hadAnyValidOptions = true)
                 #if ($selectedValues && $selectedValues.contains($option.optionId.toString()))
